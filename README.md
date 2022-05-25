@@ -1,0 +1,1 @@
+# kubectl-bash-completion
