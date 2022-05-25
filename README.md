@@ -28,8 +28,8 @@ kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
 If you have an alias for kubectl, you can extend shell completion to work with that alias:
 
 ```
-echo 'alias k=kubectl' >>~/.bashrc
-echo 'complete -F __start_kubectl k' >>~/.bashrc
+echo 'alias k=kubectl' >> ~/.bashrc
+echo 'complete -F __start_kubectl k' >> ~/.bashrc
 ```
 
 At the end, needs to reload your shell:
